@@ -35,7 +35,7 @@ public class PanelEntradaDatos extends JPanel
         setLayout(null);
         setBackground(Color.WHITE);
         //Creación y adicion de la imagen
-        iImagen = new ImageIcon(getClass().getResource("/vista/empresapoo.png"));
+        iImagen = new ImageIcon(getClass().getResource("miempresa.png"));
         lbImagen = new JLabel(iImagen);
         lbImagen.setBounds(10,10,220,176);
         add(lbImagen);
